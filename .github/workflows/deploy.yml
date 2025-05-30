@@ -38,5 +38,5 @@ jobs:
           application_name: MyDotNetApp           # Your EB Application name
           environment_name: MyDotNetApp-env       # Your EB Environment name
           version_label: v-${{ github.run_number }}
-          region: us-east-1                       # Your AWS region
+          region: eu-north-1                       # Your AWS region
           deployment_package: deploy-package.zip
